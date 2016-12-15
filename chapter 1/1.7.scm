@@ -1,5 +1,5 @@
-(define (good-enough? old-guess next-guess)
-  (< (abs (- new-guess old-guess) old-guess) 0.01)))
+(define (good-enough? old-guess new-guess)
+  (< (/ (abs (- new-guess old-guess)) old-guess) 0.01))
 
 (define (average x y)
   (/ (+ x y) 2))
