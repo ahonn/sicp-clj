@@ -23,5 +23,3 @@
           (multi-iter a
                       (- b 1)
                       (+ s a)))))
-
-(multi 3 4)
