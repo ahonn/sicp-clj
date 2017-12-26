@@ -8,7 +8,6 @@
     (and (> b a) (> b c)) b
     :else c))
 
-; (println (max-number 1 3 5))
-; (println (max-number 5 1 3))
-; (println (max-number 3 5 1))
+;; (println (max-number -1 0 99))
+;; Value => 99
 

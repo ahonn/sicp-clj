@@ -61,22 +61,21 @@
   (sqrt-iter 1 x))
 
 ;; (println (sqrt 9))
-
 ;; Exception in thread "main" java.lang.StackOverflowError when use new-if, just like 1-05
+
 ;; e.g.
 ;; (defn test-if []
   ;; (if true
-    ;; (println 1)
-    ;; (println 0)))
+    ;; (print 1)
+    ;; (print 0)))
 
 ;; (test-if)
-;; 1
+;; Value => 1
 
 ;; (defn test-new-if []
   ;; (new-if true
-    ;; (println 1)
-    ;; (println 0)))
+    ;; (print 1)
+    ;; (print 0)))
 
 ;; (test-new-if)
-;; 1
-;; 0
+;; Value => 10
