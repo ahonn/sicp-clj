@@ -20,6 +20,6 @@
     (= a 1) b
     (= b 1) a
     (even? b) (double! (multi a (halve! b)))
-    (odd? b) (+ a (multi a (dec b)))))
+    :else (+ a (multi a (dec b)))))
 
 ;; (println (multi 4 9))
