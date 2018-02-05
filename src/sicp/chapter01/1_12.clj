@@ -1,3 +1,5 @@
+(ns sicp.chapter01.1-12)
+
 ;; The following pattern of numbers is called Pascal's triangle.
 
 ;;     1
@@ -29,5 +31,5 @@
      (* (factorial col)
         (factorial (- row col)))))
 
-(println (pascal 1024 512))
+;; (println (pascal 1024 512))
 
