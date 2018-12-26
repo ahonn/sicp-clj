@@ -1,4 +1,4 @@
-(ns sicp.chapter01.1-12)
+(ns sicp.chapter01.1_12)
 
 ;; The following pattern of numbers is called Pascal's triangle.
 

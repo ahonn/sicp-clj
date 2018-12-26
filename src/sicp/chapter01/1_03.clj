@@ -1,4 +1,4 @@
-(ns sicp.chapter01.1-03)
+(ns sicp.chapter01.1_03)
 
 ;; Define a procedure that takes three numbers as arguments and returns the sum of the squares of the two larger numbers.
 
